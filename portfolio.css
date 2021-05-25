@@ -12,6 +12,10 @@
   animation: fadeIn 15s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 
+#title img{
+  width: 250px;  /* 横幅を250pxに */
+}
+
 /* #title span {
   text-align: left;
   -ms-writing-mode: tb-rl;
