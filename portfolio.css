@@ -1,30 +1,30 @@
-#title a {
+#title {
   text-align: center;
   display: block;
   width: 100%;
   height: 100%;
+  /* font-family: serif; */
   margin-top: 100px;
+  margin-bottom: 300px;
   padding: 1em 0;
+
+  /* フェードイン */
   animation: fadeIn 15s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 
-#title span {
+/* #title span {
   text-align: left;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   display: inline-block;
-  font-family: serif;
   font-size: 35px;
-}
+} */
 
-#title div{
-  text-align: left;
+/* #title .sub{
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
-  display: inline-block;
-  font-family: serif;
   font-size: 10px;
-}
+} */
 
 @keyframes fadeIn {
   0% {
@@ -34,3 +34,22 @@
     opacity: 1;
   }
 }
+
+
+#contents{
+  margin-bottom: 300px;
+  height: 600px;
+  width: 100%;
+  display: flex;/* 横並び */
+  background-color: #F2F2F2;
+
+}
+
+
+#contents .text{
+  font-family: serif;
+  font-size: 80px;
+  margin: auto;
+}
+
+
