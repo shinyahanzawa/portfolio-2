@@ -2,6 +2,7 @@
 window.onload = function () {
     //秒数後、実行
       setTimeout('loading()', 2000);
+      setTimeout('body()', 5000);
 }
 
 function loading(){
@@ -9,5 +10,10 @@ function loading(){
     document.getElementById('loading').style.display = 'none';
     
     //ここで本体を表示にさせる
-    document.getElementById('wrapper').style.display = 'block';	
+    document.getElementById('head').style.display = 'block';	
+}
+
+function body(){
+    //ここで本体を表示にさせる
+    document.getElementById('body').style.display = 'block';	
 }

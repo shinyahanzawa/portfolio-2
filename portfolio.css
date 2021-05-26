@@ -1,9 +1,17 @@
 /* 本体用のスタイル */
-#wrapper {
+#head {
   width: 100%;
   text-align: center;
   display: none;
 }
+
+
+#body {
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
 
 /* Loading Block */
 #loading {
@@ -18,9 +26,9 @@
 }
 
 .spinner {
-  width: 100px;
-  height: 300px;
-  /* margin: 200px auto; */
+  /* width: 100px;
+  height: 300px; */
+  margin: 300px auto;
   content: '';
   /* position: absolute; */
   left: 0;
@@ -68,14 +76,16 @@
 .text{
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
-  font-size: 20px;
+  font-size: 15px;
   /* width: 100%; */
-  text-align: center;
+  text-align:left;
   height: 500px;
 
   /* margin: auto; */
   margin-top: 30px;
   margin-bottom: 50px;
+
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 
 }
 
@@ -100,7 +110,7 @@ p {
 .back_style {
   /* background-color: #f9f9f9;背景色 */
   margin-bottom: 150px;
-  animation: fadeIn 12s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 
 #contents {
