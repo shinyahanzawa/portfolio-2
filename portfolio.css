@@ -59,9 +59,70 @@
   animation: fadeIn 12s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 
-#title img {
-  /* 横幅を250pxに */
-  width: 250px;
+#title .album {
+  width: 500px;
+
+	margin: auto;
+	background-color: white;
+	position: relative;
+}
+
+#title .album img {
+	width: 50%;
+	animation-name: album;
+	-webkit-animation-name: album;
+	animation-duration: 30s;
+	-webkit-animation-duration: 30s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+#title .album .img1 {
+	display: block;
+	margin: 0 auto;
+}
+  
+#title .album .img2 {
+	animation-delay:15s;
+	-webkit-animation-delay:15s;
+	position: absolute;
+	top: 0;
+	left: 25%;
+}
+
+@keyframes album {
+	0% {
+		opacity: 0;
+	}
+	
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes album {
+	0% {
+		opacity: 0;
+	}
+	
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
 }
 
 /* タイトル 文字 css*/
@@ -73,6 +134,7 @@
   font-size: 35px;
 } */
 
+/* message */
 .text{
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
@@ -143,5 +205,5 @@ p {
   font-family: serif;
   font-size: 15px;
   /* margin: auto; */
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
