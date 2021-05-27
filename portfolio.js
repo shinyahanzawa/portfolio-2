@@ -2,7 +2,10 @@
 window.onload = function () {
     //秒数後、実行
       setTimeout('loading()', 2000);
-      setTimeout('body()', 5000);
+      setTimeout('body()', 7000);
+
+    //   setTimeout('loading()', 1000);
+    //   setTimeout('body()', 1000);
 }
 
 function loading(){
