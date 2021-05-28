@@ -4,8 +4,8 @@ window.onload = function () {
       setTimeout('loading()', 2000);
       setTimeout('body()', 7000);
 
-    //   setTimeout('loading()', 1000);
-    //   setTimeout('body()', 1000);
+    //   setTimeout('loading()', 0);
+    //   setTimeout('body()', 0);
 }
 
 function loading(){
